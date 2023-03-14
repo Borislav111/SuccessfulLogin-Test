@@ -1,0 +1,9 @@
+<suite name="Login" verbose="1">
+    <test name="SuccLogin" preserve-order="true">
+        <parameter name="username" value="Teet"></parameter>
+        <parameter name="password" value="Track1"></parameter>
+        <classes>
+            <class name="SuccessfullyLogin.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
